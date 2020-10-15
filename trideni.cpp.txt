@@ -1,0 +1,4 @@
+#include'trideni.h'
+
+void nacti(std::string nazev, seznam_slov & jmena){
+}
