@@ -18,7 +18,7 @@
 // Pole argv obsahuje jednotlive argumenty z prikazove radky
 std::string nazev_z_prikazove_radky(int argc, char* argv[]) {
     if (argc < 2)
-        throw std::runtime_error("Musite zadat nazev vstupniho souboru");
+        std::cout<<"Musite zadat nazev vstupniho souboru\n"; 
 
     return std::string(argv[1]);
 }
